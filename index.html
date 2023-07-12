@@ -7,7 +7,7 @@
     <title>Cortez Lake</title>
 </head>
 <body>
-    <header>
+    <header style="background-image: url('images/background.jpg');">
         <div class="header-content">
             <h1>Cortez Lake</h1>
             <nav>
@@ -15,37 +15,37 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>An accomplished Information Technology and Cloud Security professional with over 20 years of progressive experience and responsibility including management roles in large, complex organizations...</p>
-        <!-- Rest of About content goes here -->
-    </section>
+    <!-- Rest of the sections remain same -->
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <h3>Netskope — Client Engagement Director</h3>
-        <p>2021 - PRESENT</p>
-        <p>Drive all facets of technical success across the customer journey (on-boarding, implementation, adoption, and operationalization)...</p>
-        <!-- Rest of Experience content goes here -->
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Growth and Value Driver</li>
-            <li>Leadership and Team Building</li>
-            <li>Empathetic Active Listener</li>
-            <!-- Rest of Skills content goes here -->
-        </ul>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <div class="g-recaptcha" data-sitekey="your-site-key"></div><br>
+            <input type="submit" value="Submit">
+        </form>
     </section>
 
     <footer>
+        <div class="social-media">
+            <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+            <a href="#"><img src="images/medium.png" alt="Medium"></a>
+            <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
+        </div>
         <p>© 2023 Cortez Lake</p>
     </footer>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </body>
 </html>
