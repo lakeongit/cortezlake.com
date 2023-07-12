@@ -1,40 +1,30 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: 'Arial', sans-serif;
-}
+/* This is a very basic styling. You should customize it as per your needs. */
 
-.hero {
-    background: #003554;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1E2022, #003554);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1E2022, #003554); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #fff;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
 .container {
-    max-width: 960px;
-    margin: auto;
-    padding: 15px;
+  width: 80%;
+  margin: auto;
 }
 
-section {
-    padding: 60px 0;
+nav ul {
+  list-style: none;
+  padding: 0;
 }
 
-.btn-primary {
-    background-color: #1E2022;
-    border: none;
-    padding: 10px 20px;
-    color: #fff;
-    transition: background-color 0.3s ease;
+nav ul li {
+  display: inline;
+  margin-right: 10px;
 }
 
-.btn-primary:hover {
-    background-color: #003554;
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
