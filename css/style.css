@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    background: #003554;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1E2022, #003554);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1E2022, #003554); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 15px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.btn-primary {
+    background-color: #1E2022;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #003554;
+}
