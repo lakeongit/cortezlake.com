@@ -1,0 +1,20 @@
+.hero {
+  background-image: url("your-image.jpg"); /* Add your image here */
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+section {
+  padding: 60px;
+}
